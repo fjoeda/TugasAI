@@ -27,6 +27,7 @@ clf = neighbors.KNeighborsClassifier(n_neighbors = 3)
 clf.fit(X_train,Y_train)
 
 accuracy = clf.score(X_test,Y_test)
+print(accuracy)
 
 cobaprediksi = np.array([0,0,1,0,0,1,0,0,0,0,1,0,0,0,0,1])
 cobaprediksi = cobaprediksi.reshape(1,-1)
@@ -35,5 +36,4 @@ prediksi = clf.predict(cobaprediksi)
 
 print(prediksi)
 
-print(accuracy)
 
