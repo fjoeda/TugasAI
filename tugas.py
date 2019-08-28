@@ -2,7 +2,7 @@
 """
 Created on Thu Apr 19 13:46:37 2018
 
-@author: ACER
+@author: fjoeda
 """
 
 import pandas
